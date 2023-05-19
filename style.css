@@ -1,0 +1,24 @@
+h1{
+    font-size: 3.8rem;
+    color: antiquewhite;
+}
+.bo{
+    border: 1px solid red;
+}
+
+.splash{
+    height: 100dvh;
+    background-color: rgb(69, 66, 63);
+    background-image: url('./images/money-2724235_1920.jpg');
+    background-position: center;
+    background-size: cover;
+}
+
+.brokers{
+    min-height: 100dvh;
+    
+}
+.compare{
+    height: 100dvh;
+    background-color: azure;
+}
