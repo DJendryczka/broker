@@ -1,169 +1,274 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
   <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
     <title>Broker Dominik</title>
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
-    <link rel="stylesheet" href="style.css">
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65"
+      crossorigin="anonymous"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;400;900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
   </head>
   <body>
-        <nav class="navbar navbar-expand-lg bg-light fixed-top">
-            <div class="container">
-              <a class="navbar-brand" href="#">LOGO</a>
-              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-              </button>
-              <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
-                    <li class="nav-item dropdown">
-                        <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                          Guides
-                        </a>
-                        <ul class="dropdown-menu">
-                          <li><a class="dropdown-item" href="#">Sweden</a></li>
-                          <li><a class="dropdown-item" href="#">Europe</a></li>
-                        </ul>
-                      </li>
-                  <li class="nav-item">
-                    <a class="nav-link" href="#compare">Compare</a>
-                  </li>
-                  <li class="nav-item dropdown">
-                    <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                      Guides
-                    </a>
-                    <ul class="dropdown-menu">
-                      <li><a class="dropdown-item" href="#">About</a></li>
-                      <li><a class="dropdown-item" href="#">Disclaimer</a></li>
-                      <li><a class="dropdown-item" href="#">How we test</a></li>
-                    </ul>
-                  </li>
-                </ul>
+    <nav class="navbar navbar-expand-lg bg-light fixed-top">
+      <div class="container">
+        <a class="navbar-brand" href="#">LOGO</a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+            <li class="nav-item dropdown">
+              <a
+                class="nav-link dropdown-toggle"
+                href="#"
+                role="button"
+                data-bs-toggle="dropdown"
+                aria-expanded="false"
+              >
+                Guides
+              </a>
+              <ul class="dropdown-menu">
+                <li><a class="dropdown-item" href="#">Sweden</a></li>
+                <li><a class="dropdown-item" href="#">Europe</a></li>
+              </ul>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#compare">Compare</a>
+            </li>
+            <li class="nav-item dropdown">
+              <a
+                class="nav-link dropdown-toggle"
+                href="#"
+                role="button"
+                data-bs-toggle="dropdown"
+                aria-expanded="false"
+              >
+                Guides
+              </a>
+              <ul class="dropdown-menu">
+                <li><a class="dropdown-item" href="#">About</a></li>
+                <li><a class="dropdown-item" href="#">Disclaimer</a></li>
+                <li><a class="dropdown-item" href="#">How we test</a></li>
+              </ul>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+    <div class="container-fluid splash">
+      <div class="row h-75">
+        <div
+          class="col d-flex justify-content-sm-start align-items-center ms-5 px-5"
+        >
+          <h1 class="fw-bold">
+            Find you'r<br />
+            best<br />
+            Broker
+          </h1>
+        </div>
+      </div>
+    </div>
+    <div class="container brokers">
+      <div class="row text-center m-auto">
+        <div class="col">
+          <h2 class="my-5 pt-5">Best brokers</h2>
+          <div class="row justify-content-md-center py-5">
+            <div class="col-12 col-md-5 col-xl-3 p-3">
+              <div
+                class="card m-auto shadow"
+                style="width: 16rem; height: 330px"
+              >
+                <img
+                  src="./images/ig-group.png"
+                  class="card-img-top"
+                  alt="..."
+                />
+                <div class="card-body position-relative">
+                  <h5 class="card-title">Card title</h5>
+                  <p class="card-text">Join 239,000+ traders worldwide.</p>
+                  <p>(78% of retail CFD accounts lose money.)</p>
+                  <a
+                    href="#"
+                    class="btn btn-primary btn-custom position-absolute"
+                    >Visit site</a
+                  >
+                </div>
               </div>
             </div>
-          </nav>
-          <div class="container-fluid splash">
-            <div class="row h-75">
-                <div class="col d-flex justify-content-sm-start align-items-center ms-5 px-5">
-                    <h1 class="fw-bold">Find you'r<br> best<br> Broker</h1>
+            <div class="col-12 col-md-5 col-xl-3 p-3">
+              <div
+                class="card m-auto shadow"
+                style="width: 16rem; height: 330px"
+              >
+                <img
+                  src="./images/City Index Logo_2022.png"
+                  class="card-img-top"
+                  alt="..."
+                />
+                <div class="card-body position-relative">
+                  <h5 class="card-title">Card title</h5>
+                  <p class="card-text">Bli kund hos CMC Markets idag</p>
+                  <p class="position-absolute p-card-custom">
+                    (78% av icke-professionella förlorar pengar på CFD:er)
+                  </p>
+                  <a
+                    href="#"
+                    class="btn btn-primary position-absolute btn-custom"
+                    >Visit site</a
+                  >
                 </div>
+              </div>
+            </div>
+            <div class="col-12 col-md-5 col-xl-3 p-3">
+              <div
+                class="card m-auto shadow"
+                style="width: 16rem; height: 330px"
+              >
+                <img
+                  src="./images/cmc-markets.png"
+                  class="card-img-top"
+                  alt="..."
+                />
+                <div class="card-body position-relative">
+                  <h5 class="card-title">Card title</h5>
+                  <p class="card-text">Spreads as low as 0.0 pips.</p>
+                  <p class="position-absolute p-card-custom">
+                    (75% of retail CFD accounts lose money)
+                  </p>
+                  <a
+                    href="#"
+                    class="btn btn-primary position-absolute btn-custom"
+                    >Visit site</a
+                  >
+                </div>
+              </div>
+            </div>
+            <div class="col-12 col-md-5 col-xl-3 p-3">
+              <div
+                class="card m-auto shadow"
+                style="width: 16rem; height: 330px"
+              >
+                <img
+                  src="./images/BBMlogo204x70px.jpg"
+                  class="card-img-top"
+                  alt="..."
+                />
+                <div class="card-body position-relative">
+                  <h5 class="card-title">Card title</h5>
+                  <p class="">Tier-1 Regulated. 1:500 Leverage.</p>
+                  <p>(74-89% of retail CFD accounts lose money)</p>
+                  <a
+                    href="#"
+                    class="btn btn-primary position-absolute btn-custom"
+                    >Visit site</a
+                  >
+                </div>
+              </div>
+            </div>
+            <!-- <div class="col-12 col-md-5 col-xl-3 p-1">
+              <div class="card m-auto" style="width: 16rem; height: 330px">
+                <img
+                  src="./images/logo-204x70 (1) (2).png"
+                  class="card-img-top"
+                  alt="..."
+                />
+                <div class="card-body position-relative">
+                  <h5 class="card-title">Card title</h5>
+                  <p class="card-text">
+                    Some quick example text to build on the card title and make
+                    up the bulk of the card's content.
+                  </p>
+                  <a href="#" class="btn btn-primary position-absolute btn-custom">Visit site</a>
+                </div>
+              </div>
+            </div> -->
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="container-fluid compare" id="compare">
+      <div class="row">
+        <div class="col text-center">
+          <h2 class="my-5 pt-5">Compare</h2>
+          <div class="row justify-content-center">
+            <div class="col-10 col-sm-5 col-lg-4 my-2 mx-4 rounded-4 shadow">
+              <h2 class="p-3">links</h2>
+              <ol class="text-start px-4">
+                <li>Item link</li>
+                <li>Item link</li>
+                <li>Item link</li>
+                <li>Item link</li>
+                <li>Item link</li>
+                <li>Item link</li>
+                <li>Item link</li>
+                <li>Item link</li>
+                <li>Item link</li>
+                <li>Item link</li>
+              </ol>
+            </div>
+            <div class="col-10 col-sm-5 col-lg-4 my-2 mx-4 rounded-4 shadow">
+              <h2 class="p-3">links</h2>
+              <ol class="text-start px-4">
+                <li>Item link</li>
+                <li>Item link</li>
+                <li>Item link</li>
+                <li>Item link</li>
+                <li>Item link</li>
+                <li>Item link</li>
+                <li>Item link</li>
+                <li>Item link</li>
+                <li>Item link</li>
+                <li>Item link</li>
+              </ol>
             </div>
           </div>
-          <div class="container brokers">
-            <div class="row text-center m-auto">
-                <div class="col">
-                    <h2 class="my-5 pt-5">Best brokers</h2>
-                    <div class="row justify-content-md-between pt-5">
-                        <div class="col-12 col-md-4 col-lg-2 p-1">
-                            <div class="card m-auto" style="width: 100%;">
-                                <img src="./images/ig-group.png" class="card-img-top" alt="...">
-                                <div class="card-body">
-                                  <h5 class="card-title">Card title</h5>
-                                  <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                                  <a href="#" class="btn btn-primary">Go somewhere</a>
-                                </div>
-                              </div>
-                        </div>
-                        <div class="col-12 col-md-4 col-lg-2 p-1">
-                            <div class="card m-auto" style="width: 100%;">
-                                <img src="./images/City Index Logo_2022.png" class="card-img-top" alt="...">
-                                <div class="card-body">
-                                  <h5 class="card-title">Card title</h5>
-                                  <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                                  <a href="#" class="btn btn-primary">Go somewhere</a>
-                                </div>
-                              </div>
-                        </div>
-                        <div class="col-12 col-md-4 col-lg-2 p-1">
-                            <div class="card m-auto" style="width: 100%;">
-                                <img src="./images/cmc-markets.png" class="card-img-top" alt="...">
-                                <div class="card-body">
-                                  <h5 class="card-title">Card title</h5>
-                                  <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                                  <a href="#" class="btn btn-primary">Go somewhere</a>
-                                </div>
-                              </div>
-                        </div>
-                        <div class="col-12 col-md-4 col-lg-2 p-1">
-                            <div class="card m-auto" style="width: 100%;">
-                                <img src="./images/BBMlogo204x70px.jpg" class="card-img-top" alt="...">
-                                <div class="card-body">
-                                  <h5 class="card-title">Card title</h5>
-                                  <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                                  <a href="#" class="btn btn-primary">Go somewhere</a>
-                                </div>
-                              </div>
-                        </div>
-                        <div class="col-12 col-md-4 col-lg-2 p-1">
-                            <div class="card m-auto" style="width: 100%;">
-                                <img src="./images/logo-204x70 (1) (2).png" class="card-img-top" alt="...">
-                                <div class="card-body">
-                                  <h5 class="card-title">Card title</h5>
-                                  <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                                  <a href="#" class="btn btn-primary">Go somewhere</a>
-                                </div>
-                              </div>
-                        </div>
-                    </div>
-                    
-                </div>
-            </div>
-          </div>
-          <div class="container-fluid compare" id="compare">
-            <div class="row">
-                <div class="col text-center">
-                    <h2 class="my-5 pt-5">Compare</h2>
-                    <div class="row  justify-content-center">
-                        <div class="col-12 col-sm-3 bg-danger my-2 mx-4">
-                            <h2>links</h2>
-                            <ol class="text-start">
-                                <li>Item link</li>
-                                <li>Item link</li>
-                                <li>Item link</li>
-                                <li>Item link</li>
-                                <li>Item link</li>
-                                <li>Item link</li>
-                                <li>Item link</li>
-                                <li>Item link</li>
-                                <li>Item link</li>
-                                <li>Item link</li>
-                            </ol>
-                        </div>
-                        <div class="col-12 col-sm-3 bg-danger my-2 mx-4">
-                            <h2>links</h2>
-                            <ol class="text-start">
-                                <li>Item link</li>
-                                <li>Item link</li>
-                                <li>Item link</li>
-                                <li>Item link</li>
-                                <li>Item link</li>
-                                <li>Item link</li>
-                                <li>Item link</li>
-                                <li>Item link</li>
-                                <li>Item link</li>
-                                <li>Item link</li>
-                            </ol>
-                        </div>
-                    </div>
-                </div>
-            </div>
-          </div>
-          <footer class="container-fluid bg-black text-bg-dark text-center">
-            <div class="row">
-                <div class="col">
-                    <h3>Footer</h3>
-                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Consequuntur, illum.</p>
-                </div>
-                <div class="col">
-                    <h3>Info</h3>
-                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Doloremque quaerat quas totam earum.</p>
-                </div>
-                <div class="col">
-                    <h3>info@broker.se</h3>
-                    <p>Lorem ipsum dolor sit amet.</p>
-                </div>
-            </div>
-          </footer>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4" crossorigin="anonymous"></script>
+        </div>
+      </div>
+    </div>
+    <footer class="container-fluid bg-black text-bg-dark text-center">
+      <div class="row">
+        <div class="col p-4 mx-2">
+          <h3>Footer</h3>
+          <p>
+            Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+            Consequuntur, illum.
+          </p>
+        </div>
+        <div class="col p-4 mx-2">
+          <h3>Info</h3>
+          <p>
+            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Doloremque
+            quaerat quas totam earum.
+          </p>
+        </div>
+        <div class="col p-4 mx-2">
+          <h3>info@broker.se</h3>
+          <p>Lorem ipsum dolor sit amet.</p>
+        </div>
+      </div>
+    </footer>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4"
+      crossorigin="anonymous"
+    ></script>
   </body>
 </html>
